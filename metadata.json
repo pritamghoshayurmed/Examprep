@@ -1,0 +1,5 @@
+{
+  "name": "ExamPrepper AI",
+  "description": "An intelligent exam preparation assistant that analyzes syllabus and previous years' question papers to predict questions and generate model exams using Gemini 2.5.",
+  "requestFramePermissions": []
+}

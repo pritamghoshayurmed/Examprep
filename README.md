@@ -4,7 +4,7 @@
 
 # Run and deploy your AI Studio app
 
-This contains everything you need to run your app locally.
+This contains everything you need to run your app locally and deploy it to Vercel.
 
 View your app in AI Studio: https://ai.studio/apps/drive/10HNpjmyR6OJzNGpwMWJQY40V36Fb8Mf2
 
@@ -18,3 +18,20 @@ View your app in AI Studio: https://ai.studio/apps/drive/10HNpjmyR6OJzNGpwMWJQY4
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy to Vercel
+
+This app is configured for easy deployment to Vercel:
+
+1. Push your code to a GitHub repository
+2. Import the project in Vercel
+3. Add the `GEMINI_API_KEY` environment variable in Vercel project settings
+4. Deploy!
+
+Vercel will automatically detect the Vite framework and use the settings in `vercel.json`.
+
+Alternatively, use the Vercel CLI:
+```bash
+npm install -g vercel
+vercel
+```
